@@ -66,11 +66,11 @@ h1, h2, h3, h4, h5 {
 body {
 	background-color: black;
 	margin: 0 auto;
-	width: 880px;
+	width: 900px;
 }
 
 .container {
-	width: 880px;
+	width: 900px;
 	margin: 0 auto;
   background-color: grey;
 }
@@ -135,6 +135,11 @@ button {
 
 .facts {
 	padding-right: 20px;
+  padding-bottom: 2px;
+}
+
+.servicesp {
+width: 50%;
 }
 
 .list {
@@ -144,4 +149,9 @@ button {
 
 li {
 	list-style-type: square;
+}
+
+.servicesinfoimg {
+	float: right;
+	width: 50%;
 }
