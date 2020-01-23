@@ -69,10 +69,24 @@ body {
 	width: 900px;
 }
 
+.navbar {
+	display: flex;
+	flex-flow: row wrap;
+	padding-top: 2%;
+	justify-content: space-between;
+}
+
+.logo {
+	float: right;
+	vertical-align: middle;
+	margin-left: 30px;
+}
+
 .container {
 	width: 900px;
 	margin: 0 auto;
-  background-color: grey;
+	background-color: grey;
+	padding: 20px
 }
 
 .services {
@@ -135,23 +149,36 @@ button {
 
 .facts {
 	padding-right: 20px;
-  padding-bottom: 2px;
+	padding-bottom: 2px;
+	text-align: left;
 }
 
-.servicesp {
-width: 50%;
+.services-p {
+width: 45%;
+text-align: left;
+margin-bottom: 25px;
 }
 
 .list {
 	padding-top: 20px;
 	padding-left: 20px;
+	text-align: left;
 }
 
 li {
 	list-style-type: square;
 }
 
-.servicesinfoimg {
+footer {
+	text-align: center;
+}
+
+.services-info-img {
+	position: relative;
+	width: 45%;
 	float: right;
-	width: 50%;
+}
+
+.copyright {
+	text-align: center;
 }
