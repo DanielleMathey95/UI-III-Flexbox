@@ -137,3 +137,116 @@ button {
 .copyright {
 	text-align: center;
 }
+
+
+.services{
+	margin: 0 auto;
+	width: 900px;
+}
+
+.navbar {
+	display: flex;
+	flex-flow: row wrap;
+	padding-top: 2%;
+	justify-content: space-between;
+}
+
+.logo {
+	float: right;
+	vertical-align: middle;
+	margin-left: 30px;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: grey;
+	padding: 20px
+}
+
+.services {
+	padding-left: 5px;
+	margin-top: 20px;
+}
+
+.lm {
+	margin-top: 5px;
+	padding: 5px 20px;
+}
+
+.middle-content {
+	display: flex;
+	align-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.box1 {
+	border: 1px solid black;
+	max-width: 48%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.box2 {
+	border: 1px solid black;
+	max-width: 48%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.box3 {
+	border: 1px solid black;
+	max-width: 48%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.box4 {
+	border: 1px solid black;
+	max-width: 48%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.box5 {
+	border: 1px solid black;
+	max-width: 48%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.box6 {
+	border: 1px solid black;
+	max-width: 48%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.facts {
+	padding-bottom: 2px;
+}
+
+.services-content {
+	width: 48%;
+	margin: 0 auto;
+}
+
+.services-footer-ul {
+	justify-content: flex-start;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+li {
+	list-style-type: square;
+}
+
+.services-footer {
+	display: flex;
+
+}
+
+.services-info-img {
+	width: 96%;
+	margin: 0 auto;
+}
